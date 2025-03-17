@@ -44,10 +44,12 @@ while True:
     s.send(ip.encode()) 
     print("MAC Address",s.recv(1024).decode()) 
 ```
-## OUPUT 
+## OUPUT
+```
 CLIENT: 
 ![Screenshot 2025-03-17 140905](https://github.com/user-attachments/assets/2565f724-7fbf-4804-a649-ef12c586e1ed)
-SERVER: 
+``
+SERVER:
 ![Screenshot 2025-03-17 140917](https://github.com/user-attachments/assets/62d1c794-6509-4f0b-aba0-20c58c08ddc5)
 
 ## RESULT
